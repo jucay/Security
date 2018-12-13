@@ -1,0 +1,5 @@
+name: Security
+version: 1.0-SNAPSHOT
+main: me.jucy.security.Security
+commands:
+  ipwhitelist:

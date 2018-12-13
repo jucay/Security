@@ -1,0 +1,4 @@
+me\jucy\security\listener\PlayerJoinListener.class
+me\jucy\security\Security.class
+me\jucy\security\command\IPWhitelistCommand.class
+me\jucy\security\config\SecurityConfig.class

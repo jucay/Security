@@ -1,0 +1,5 @@
+name: Security
+version: ${project.version}
+main: me.jucy.security.Security
+commands:
+  ipwhitelist:
