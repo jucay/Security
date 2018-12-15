@@ -17,7 +17,7 @@ public class PlayerJoinListener implements Listener {
     @EventHandler
     public void onJoin(PlayerLoginEvent event) {
         Player player = event.getPlayer();
-        if (player.hasPermission("security.bypass") || !(player.hasPermission("security.password"))) {
+        if (!(player.hasPermission("security.password"))) {
             return;
         }
         if (Security.getInstance().getSecurityConfig().getAllowedIPs(player).equalsIgnoreCase(player.getAddress().getAddress().toString())) {
